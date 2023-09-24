@@ -1,0 +1,26 @@
+
+name: Node.js Package
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3.6.0
+        with:
+          node-version: '16.X'
+      - name: install
+        run: npm install
+      - name: build
+        run: npm run docs:build
+      - name: deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with: 
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BASE_BRANCH: main
+          BRANCH: deploy
+          FOLDER: src/.vuepress/dist
