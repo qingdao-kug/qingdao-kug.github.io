@@ -3,7 +3,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://qindao-kug.github.io",
+  hostname: "https://qingdao-kug.github.io",
 
   author: {
     name: "guodongAndroid",
@@ -12,7 +12,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  repo: "qindao-kug",
+  repo: "qingdao-kug",
   repoLabel: "Github",
   repoDisplay: true,
 

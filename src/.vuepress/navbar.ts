@@ -6,7 +6,11 @@ export default navbar([
     link: "https://mp.weixin.qq.com/s/rZEuSU2Nj3S9XGzpkFr-Jw",
   },
   {
-    text: "中文网站",
+    text: "Kotlin官网",
+    link: "https://kotlinlang.org/",
+  },
+  {
+    text: "Kotlin中文",
     link: "https://www.kotlincn.net",
   },
   {
