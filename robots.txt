@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://qindao-kug.github.io/sitemap.xml
+Sitemap: https://qingdao-kug.github.io/sitemap.xml
