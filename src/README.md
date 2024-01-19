@@ -16,7 +16,7 @@ actions:
     link: https://beijing-kug.github.io/news/
 
 copyright: false
-footer: © 2023 <a href="https://qingdao-kug.github.io/">青岛KUG</a> Powered by <a href="https://vuejs.press/">Vuepress</a> & <a href="https://theme-hope.vuejs.press/">Hope</a>
+footer: © 2023-2024 <a href="https://qingdao-kug.github.io/">青岛KUG</a> Powered by <a href="https://vuejs.press/">Vuepress</a> & <a href="https://theme-hope.vuejs.press/">Hope</a>
 ---
 
 Hi :hand:，这里是青岛 Kotlin 用户组，欢迎所有对 Kotlin 感兴趣的开发者加入用户组
